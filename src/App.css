@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #a04b6d;
+  height: 250px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.myNavigation{
+  height:20px;
+}
+
+.myBrand a{
+  color:red;
+}
+
+.container-fluid{
+  background-color: #66cdaa; /* TO CHANGE HERE*/
+}
+
+.element{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 100%;
+
+
+  
+  position: relative;
+  list-style: none;
+  /*display: inline-block;*/
+  padding: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  border-color: #000000;
+  border-width: 3px;
+  background-color: #cccccc;
+  height: 260px;
+  width: 440px;
+
+ 
+}
+.image{
+  display: grid;
+  grid-column: 1/2;
+
+}
+
+.items{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.info{
+  display: grid;
+  grid-column: 2/3;
+  background-color: #66cdaa;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.nav.navbar-nav li a{  /* Changes color of About us, and other menus*/
+  color:black;
+}
+
+.nav.navbar-header{
+  color: red;
+}
+
+.navbar-brand{
+  color:red;
+}
+
+.nav.navbar-nav li a:hover{ /* Hovering over about us, link,...*/
+  color: red;
+}
+
+.filter-list{
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.filter-list{
+  margin-left: 80px;
+  margin-right: 100px;
+}
+
+.list1{
+  margin-right: 10px;
+}
+
+.list2{
+  margin-left: 10px;
+}
+
+.list3{
+  margin-bottom: 15px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+
+.sort-list{
+  margin-top: 20px;
+}
+
+
+.main_body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-between;
+  background-color:#a04b6d;
+  background: url('snow.jpg');
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
